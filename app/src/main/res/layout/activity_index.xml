@@ -14,10 +14,18 @@
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
+        android:id="@+id/nav_left"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_index"
+        app:menu="@menu/activity_index_drawer" />
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_index"
         app:menu="@menu/activity_index_drawer" />
