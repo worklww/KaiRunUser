@@ -6,12 +6,6 @@
     android:layout_height="match_parent"
     tools:context="cn.kairun.kairunuser.fragment.SleepFragment">
 
-    <cn.kairun.kairunuser.myview.SportCustomView
-        android:layout_centerInParent="true"
-        android:layout_height="200dp"
-        android:layout_width="200dp"
-        app:speed="10" app:secondColor="#D20F02" app:firstColor="#16A3FA" app:circleWidth="24dp"
-        android:layout_centerHorizontal="true" android:layout_marginBottom="40dp"
-        android:layout_alignParentBottom="true"/>
+
 
 </RelativeLayout>

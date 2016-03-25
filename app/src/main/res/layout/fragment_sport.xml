@@ -6,13 +6,14 @@
     tools:context="cn.kairun.kairunuser.fragment.SportFragment">
     <cn.kairun.kairunuser.myview.SportCustomView
         android:layout_centerInParent="true"
-        android:layout_height="120dp"
-        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
         app:speed="20"
-        app:secondColor="#2F9DD2"
-        app:firstColor="#D4F668"
-        app:circleWidth="15dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentTop="true"/>
+        app:firstColor="@color/colorabroadcircular"
+        app:secondColor="@color/colordefaultircular"
+        app:circleWidth="11dp"
+        app:insidefirstColor="@color/colorinsidecircular"
+        app:insidesecondColor="@color/colordefaultircular"
+        app:insidecircleWidth="5dp"
+        />
 </RelativeLayout>
