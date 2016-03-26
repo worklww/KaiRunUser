@@ -123,42 +123,42 @@ public class SportCustomView extends View {
         a.recycle(); //回收资源
         mPaint = new Paint(); //初始化画笔
         // 绘图线程
-        new Thread() {
-            public void run()
-            {
-                while (true)
-                {
-                    mProgress++;
-                    stepCount++;
-                    calorieCount++;
-                    if (mProgress == 360)
-                    {
-                        mProgress = 0;
-                        stepCount = 0;
-                        calorieCount = 0;
-                        if (!isNext) {
-                            isNext = true;
-                        } else {
-                            isNext = true;
-                        }
-
-                        if(!insideIsNext){
-                            insideIsNext = true;
-                        } else {
-                            insideIsNext = true;
-                        }
-                    }
-                    postInvalidate(); //重绘圆
-                    try
-                    {
-                        Thread.sleep(mSpeed); //绘制速度
-                    } catch (InterruptedException e)
-                    {
-                        e.printStackTrace();
-                    }
-                }
-            };
-        }.start();
+//        new Thread() {
+//            public void run()
+//            {
+//                while (true)
+//                {
+//                    mProgress++;
+//                    stepCount++;
+//                    calorieCount++;
+//                    if (mProgress == 360)
+//                    {
+//                        mProgress = 0;
+//                        stepCount = 0;
+//                        calorieCount = 0;
+//                        if (!isNext) {
+//                            isNext = true;
+//                        } else {
+//                            isNext = true;
+//                        }
+//
+//                        if(!insideIsNext){
+//                            insideIsNext = true;
+//                        } else {
+//                            insideIsNext = true;
+//                        }
+//                    }
+//                    postInvalidate(); //重绘圆
+//                    try
+//                    {
+//                        Thread.sleep(mSpeed); //绘制速度
+//                    } catch (InterruptedException e)
+//                    {
+//                        e.printStackTrace();
+//                    }
+//                }
+//            };
+//        }.start();
    }
 
     @Override
