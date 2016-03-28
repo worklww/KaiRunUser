@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorwhite">#FFFFFF</color>
+    <color name="colorabroadcircular">#EE4000</color>
+    <color name="colorinsidecircular">#458B74</color>
+    <color name="colordefaultircular">#E5E5E5</color>
+    <color name="colortextcolor">#3B3B3B</color>
+    <color name="colorBlue">#4876FF</color>
+    <color name="colorViolet">#FFBBFF</color>
 </resources>

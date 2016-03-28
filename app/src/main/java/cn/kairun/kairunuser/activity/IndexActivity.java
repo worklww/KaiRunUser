@@ -22,6 +22,7 @@ import cn.kairun.kairunuser.fragment.SleepFragment;
 import cn.kairun.kairunuser.fragment.SportFragment;
 
 public class IndexActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener ,ViewPager.OnPageChangeListener{
+    //11
     private DrawerLayout drawer;
     private NavigationView navigationViewLeft;
     private NavigationView navigationViewRight;
